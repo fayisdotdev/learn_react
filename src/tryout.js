@@ -1,9 +1,5 @@
-const numbers = [1,2,3,4,5];
+// const numbers = [1,2,3,4,5];
 
-function squares(val) {
-    return val * val
-
-}
-;
+const  squares = (val) => val * val;
 
 console.log(squares(6))
