@@ -1,5 +1,10 @@
-// const numbers = [1,2,3,4,5];
+const numbers = [1,2,3,4,5];
 
-const  squares = (val) => val * val;
+const  squareFunction = (val) => val * val;
 
-console.log(squares(6))
+// creating another array using teh exisnti9ing array and the defined function 
+const squares = numbers.map(squareFunction)
+
+
+console.log(squareFunction(6))
+console.log(squares)
